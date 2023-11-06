@@ -1,0 +1,431 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #303030;
+
+    height: 500vh;
+    font-family: Roboto;
+}
+
+
+
+
+/* SWIPER */  
+.swiper{
+    background-color: #303030;
+    position: relative;
+}
+
+.swiper img{
+    width: 100%;
+    margin-top: -18.5vh;
+}
+
+
+/* SWIPER BUTTONS 
+    SHOP BUTTON 1
+*/
+.shop-button1 {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: Roboto;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 1em;
+
+    position: absolute;
+    bottom: 18%;
+    left: 6%;
+}
+
+.shop-button1::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+}
+
+.shop-button1 .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.shop-button1 .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: transparent;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.shop-button1 .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: transparent;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.shop-button1 .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: transparent;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.shop-button1:hover {
+    color: white;
+    background: black;
+}
+
+.shop-button1:hover::before {
+    width: 0.9375rem;
+    background: white;
+}
+
+.shop-button1:hover .text {
+    color: white;
+    padding-left: 1.5em;
+}
+
+
+
+
+/* SWIPER BUTTONS 
+    SHOP BUTTON 2
+*/
+.shop-button2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: Roboto;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 1em;
+
+    position: absolute;
+    bottom: 30%;
+    left: 12%;
+}
+
+.shop-button2::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+}
+
+.shop-button2 .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.shop-button2 .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: transparent;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.shop-button2 .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: transparent;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.shop-button2 .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: transparent;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.shop-button2:hover {
+    color: black;
+    background: white;
+}
+
+.shop-button2:hover::before {
+    width: 0.9375rem;
+    background: black
+}
+
+.shop-button2:hover .text {
+    color: black;
+    padding-left: 1.5em;
+}
+
+
+
+/* SWIPER TEXT CONTENT */
+h1{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+
+    font-family: Roboto;
+    font-size: 4em;
+    font-weight: bolder;
+    letter-spacing: .1px;
+    
+    color: #f0f0f0;
+}
+
+h5{
+    position: absolute;
+    top: 42%;
+    left: 12%;
+
+    font-family: Roboto;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: .1px;
+    
+    color: #f0f0f0;
+}
+
+h2{
+    position: absolute;
+    bottom: 33%;
+    left: 12%;
+
+    font-family: Roboto;
+    font-size: 4em;
+    font-weight: bolder;
+    letter-spacing: .1px;
+    
+    color: #f0f0f0;
+}
+
+h4{
+    position: absolute;
+    top: 43%;
+    left: 16.5%;
+
+    font-family: Roboto;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: .1px;
+    
+    color: #f0f0f0;
+}
+
+
+
+/* HERO 2 */
+/* LEFT SECTION */
+.hero2-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top:15vh;
+}
+
+.left-section{
+    width: 58.5%;
+    height: 100vh;
+    background-image: url(HERO/2hero.jpg);
+}
+
+
+/*HERO 2 LEFT SECTION TEXT */
+.hero2-container .left-section .heading{
+    color: #f0f0f0;
+    font-size: 3em;
+    font-weight: bold;
+
+    margin-left: 4.5vw;
+    margin-top: 10vh;
+}
+
+.hero2-container .left-section .subtext{
+    color: #f0f0f0;
+    font-size: 1em;
+    font-weight: 300;
+
+    margin-left: 4.5vw;
+    margin-top: 2vh;
+}
+
+
+
+
+
+/* RIGHT SECTION */
+.right-section{
+    width: 41.5%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.row1, .row2, .row3{
+    height: 33.33%;
+    display: flex;
+}
+
+hr{
+    color: #b4b3b3;
+    background-color: #b4b3b3;
+    border: none;
+    width: 25px;
+    height: 3px;
+}
+
+
+/* ROW 1 */
+.row1-left{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1-right{
+    width: 50%;
+}
+
+.row1-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    transition: all 1s;
+    border-radius: 2px;
+}
+
+.row1-img:hover{
+    background-size: 120%;
+}
+
+
+
+
+
+/* ROW 2 */
+.row2-left{
+    width: 50%;
+}
+
+.row2-img{
+    width: 100%;
+    height: 100%;
+
+    margin-right: -2vw;
+    border-radius: 2px;
+}
+
+.row2-right{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ROW 3 */
+.row3-left{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3-right{
+    width: 50%;
+}
+
+.row3-img{
+    width: 100%;
+    height: 100.05%;
+
+    border-radius: 2px;
+}
+
+
+/* HERO 2 TEXT */
+.hero2-container .heading{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.hero2-container .subtext{
+    font-weight: 300;
+}
