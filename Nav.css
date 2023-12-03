@@ -100,20 +100,29 @@ a:hover {
   font-weight: 500;
   font-family: 'Saira';
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.dropdown-menu{
-  background-color: black;
-  margin-top: 15vh;
-  margin-left: 0px;
+#dropdown-basic:hover{
+  color:  rgb(255, 188, 0);
 }
-.dropdown-menu a{
+
+.dropdown-menu.show{
+  background-color: #323232;
+  display: block;
+}
+
+.dropdown-menu.show a{
   
   font-size: 1em;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.dropdown-menu{
+  display: none;
 }
 
 .navigations {
